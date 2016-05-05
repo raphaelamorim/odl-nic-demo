@@ -9,7 +9,8 @@ import sys
 
 pp = pprint.PrettyPrinter(indent=2)
 
-baseurl = "http://localhost:8181/restconf/config/"
+address = "localhost"
+baseurl = "http://" + address + ":8181/restconf/config/"
 mapurl = "intent-mapping-interface:mappings/"
 outerurl = "outer-map/"
 intentsurl = "intent:intents/"
